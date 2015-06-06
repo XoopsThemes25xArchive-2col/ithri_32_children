@@ -1,0 +1,346 @@
+a{
+	color: #A2621C;
+	text-decoration: none;
+}
+
+a:visited {
+	color: #A2621C;
+	text-decoration: none;
+}
+
+
+h1 {
+	font-size: 1.4em;
+	font-weight: bold;
+	
+	
+}
+h2 {font-size: 1.2em;}
+h3 {
+	padding-bottom: 3px;
+	font-size: 1em;
+	
+}
+h4 {font-size: 1em;}
+h5 {font-size: .9em;}
+h6 {font-size: .8em;}
+
+/* --------- Images --------- */
+img {
+	position: relative;
+	border: 0;  
+}
+
+
+
+/* hr */
+hr {
+  color: #ccc;
+  border: #ccc;
+  background: #ccc;
+  height: 1px;
+}
+
+
+
+/* --------- Tables and cells --------- */
+table {
+	width: 100%;
+	text-align:left;
+}
+table td {
+	padding: 0;
+	vertical-align: top;
+	border-width: 0;  
+}
+th {
+	padding: 4px;
+	vertical-align: middle;
+	background-color: #A2621C;
+	color:#FF8C00;
+	
+	
+}
+.outer {
+	padding: 2px;
+	
+}
+.head {
+  background-color: #8B5742;
+  color:#FF8C00;
+  font-weight: bold;
+  padding: 5px;
+ 
+}
+
+.even {
+    border:1px solid #CDBE70;
+	
+	padding: 5px;
+}
+.odd {
+    border:1px solid #CDBE70;
+	
+	padding: 5px;
+}
+.foot {
+	
+	padding: 5px;
+	font-weight: bold;
+}
+tr.even td {
+	border-top:1px dotted #00CDCD;
+	padding: 5px;
+	
+}
+tr.odd td {
+	border-top:1px dotted #00CDCD;
+	padding: 5px;
+	
+}
+
+
+
+/* --------- Core messages --------- */
+.errorMsg {
+	background-color: #FFCCCC;
+	padding: 10px;
+	text-align: center;
+	border-top: 1px solid #00CDCD;
+	border-left: 1px solid #00CDCD;
+	border-right: 1px solid #aaa;
+	border-bottom: 1px solid #aaa;
+	font-weight: bold;  
+}
+.confirmMsg {
+	background-color: #DDFFDF;
+	padding: 10px;
+	
+	text-align: center;
+	font-weight: bold; 
+	border-top: 1px solid #00CDCD;
+	border-left: 1px solid #00CDCD;
+	border-right: 1px solid #aaa;
+	border-bottom: 1px solid #aaa;   
+}
+.resultMsg {
+	background-color: #c1c1c1;
+	padding: 10px;
+	color: #333;
+	text-align: center;
+	font-weight: bold;
+	border-top: 1px solid #00CDCD;
+	border-left: 1px solid #00CDCD;  
+	border-right: 1px solid #666;
+	border-bottom: 1px solid #666;  
+}
+
+/* --------- Codes and Quotes --------- */
+.xoopsCode {
+	max-height: 200px;
+	margin: 6px;
+	padding: 6px; 
+	overflow: auto;
+	
+	font-family: Segoe UI, Tahoma, "Lucida Console", "courier new", monospace;
+	font-size: .9em; 
+	background: #68BF55;
+}
+.xoopsQuote {
+	margin: 6px;
+	padding: 6px 6px 6px 40px;  
+	font-style: normal;
+	border: 1px solid #639ACC;
+	border-left: 2px solid #639ACC; 
+}
+
+/* --------- Articles --------- */
+.item {
+	background:  url("../img/content.png")  repeat-y;
+	
+	margin-top:10px;
+
+}
+.itemHead {
+	font-size:1.1em;
+	
+}
+.itemInfo { 
+	padding: 3px;
+	text-align:right; 
+}
+.itemTitle {
+}
+
+.itemTitle a {
+	padding: 3px;
+	color:#00CDCD;
+	font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+	font-size:1.1em;
+	font-weight: bold;
+	
+	
+	
+	
+	
+}
+.itemPoster {
+	font-size: .9em;
+	font-style: normal;
+}
+.itemPostDate {
+	font-size: .9em;
+	font-style: normal;
+}
+.itemStats {
+	font-size: .9em;
+	font-style: normal;
+}
+.itemBody {
+padding-left : 3px;
+
+
+
+}
+.itemText {
+	font-size:1.1em;
+	line-height:1.4em;
+	padding:10px;
+	font-family: Segoe UI,Tahoma,Arial,Helvetica,sans-serif;
+	
+}
+.itemFoot {  
+	
+	border-left: none; 
+	border-right: none; 
+	padding: 10px 10px; 
+	margin: 2px 0px 0px 10px; 
+	color: #597eb2 !important; 
+	text-align:center;
+    background: url("../img/item.gif") repeat-x bottom;
+	
+	
+	
+	
+}
+.itemAdminLink {
+    font-size: .9em;  
+	
+   
+	
+}
+.itemPermaLink {
+    font-size: .9em; 
+	margin: 							0 20px 10px 0; 
+	padding: 						0 20px; 
+	padding-bottom:4px;	
+	
+}
+
+
+
+/* --------- Forums and Comments --------- */
+.comTitle {
+	margin-bottom: 2px;
+	font-weight: bold;  
+}
+.comText {padding: 2px;}
+.comUserStat {
+	margin: 2px; 
+	background-color:;
+	padding: 2px; 
+	font-size: .8em;
+	font-weight: ;
+	border: 1px solid #ccc;   
+}
+.comUserStatCaption {font-weight: normal;}
+.comUserStatus {
+	margin-left: 2px;
+	margin-top: 10px;
+	font-weight: bold;
+	font-size: .8em;
+}
+.comUserRank {margin: 2px;}
+.comUserRankText {
+	font-size: .9em;
+	font-weight: bold;
+}
+.comUserRankImg {border: 0;}
+.comUserName {}
+.comUserImg {margin: 2px;}
+.comDate {
+	font-weight: normal;
+	font-style: normal;
+	font-size: .9em;
+}  
+.comDateCaption {
+	font-weight: bold;
+	font-style: normal;
+	font-size: .8em;
+}
+.signature {
+	font-size: .8em;
+	font-style: normal;
+}
+
+
+
+ /* --------- Forms --------- */
+button, input[type="submit"], input[type="button"] { 
+ background:#C98235;  
+ padding : 3px;  color : #fff;  font-size : .8em;  
+ font-weight : bold;  border : none;}input[type=text], input[type=password], input[type=checkbox], input[type=file], 
+ 
+
+
+
+input[type=text], input[type=password], input[type=checkbox], input[type=file], textarea {
+        border: 1px solid #ddd;
+        margin: 2px 5px 2px 0;
+        padding-left: .2em;
+        color: inherit;
+        color: #333;
+}
+
+input[type=text]:focus, input[type=password]:focus, input[type=checkbox]:hover, input[type=file]:focus {
+        
+        border-color: #44bbee;
+        
+}
+
+
+
+
+
+ 
+/* --- system_redirect ---*/
+#xo-redirect {	
+margin: 10px 80px 10px 80px;	
+background-color: #fafafa;	padding: 8px;	
+line-height: 1.4em;	text-align: center;	
+border: 1px solid #ddd;
+color:#000;
+}
+
+/* --- system_siteclosed --- */
+#xo-siteclosed {
+	margin: 10px 200px 10px 200px;	
+	background-color: #fafafa;	
+	padding: 8px;	
+	line-height: 1.6em;	
+	text-align: center;	
+	border: 1px solid #ddd;}
+#xo-siteclosed strong {	
+	display: block;	
+	font-style: normal;}
+#xo-siteclosed label {	
+	font-size: .9em;	
+	font-weight: normal;}
+	#xo-siteclosed input {margin: 2px;
+	}
+
+
+
+
+
+
